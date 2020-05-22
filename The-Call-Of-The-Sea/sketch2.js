@@ -39,7 +39,7 @@ function preload(){
 function setup(){
   createCanvas(innerWidth - 30,innerHeight - 60);
 
-  boat = createSprite(innerWidth/2+500,innerHeight/5);
+  boat = createSprite(innerWidth/2+500,innerHeight/4);
   boat.addImage(boatImg);
   boat.scale = innerWidth/1500;
   boat.debug=true
@@ -90,7 +90,7 @@ function draw(){
   drawSprites();
   
 
-  hook.x = boat.x - 170;
+  hook.x = boat.x - 150;
 
   strokeWeight(7);
   line(hook.x,boat.y*1.6,hook.x,hook.y-25);
