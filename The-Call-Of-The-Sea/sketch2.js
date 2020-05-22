@@ -39,7 +39,7 @@ function preload(){
 function setup(){
   createCanvas(innerWidth - 30,innerHeight - 60);
 
-  boat = createSprite(innerWidth/2+500,innerHeight/6);
+  boat = createSprite(innerWidth/2+500,innerHeight/5);
   boat.addImage(boatImg);
   boat.scale = innerWidth/1500;
   boat.debug=true
