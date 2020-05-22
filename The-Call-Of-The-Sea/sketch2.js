@@ -49,7 +49,7 @@ function setup(){
   hook.scale = innerWidth/10500;
   hook.debug=true
 
-  line1 = createSprite(innerWidth/2,innerHeight/4,innerWidth,5);
+  line1 = createSprite(innerWidth/2,innerHeight/3,innerWidth,5);
   line1.visible = false;
  
 // small fish
