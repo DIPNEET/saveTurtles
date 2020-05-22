@@ -44,7 +44,7 @@ function setup(){
   boat.scale = innerWidth/1200;
   boat.debug=true
   boat.setCollider("rectangle",0,0,90,100);
-  hook = createSprite(innerWidth/2+1000,innerHeight/4 );
+  hook = createSprite(innerWidth/2+1000,innerHeight/2 );
   hook.addImage(hookImg);
   hook.scale = innerWidth/10500;
   hook.debug=true
